@@ -1,0 +1,140 @@
+.answer {
+  padding-top: 65px;
+  padding-bottom: 69px;
+}
+
+.answer_inner {
+  position: relative;
+  &::before {
+    content: "";
+    left: 820px;
+    top: -13px;
+    background-image: url(/images/shapes.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 67px;
+    height: 65px;
+    display: inline-block;
+    position: absolute;
+  }
+  &::after {
+    content: "";
+    left: 1109px;
+    top: 60px;
+    background-image: url(/images/Group.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 82px;
+    height: 86px;
+    display: inline-block;
+    position: absolute;
+  }
+}
+.answer_title {
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.answer_list {
+  margin-top: 40px;
+  width: 1140px;
+  background-color: #f3f3f3;
+  list-style: none;
+  padding-top: 45px;
+  padding-left: 45px;
+  padding-right: 48px;
+  padding-bottom: 30px;
+}
+.answer_item {
+  display: flex;
+  padding-left: 35px;
+  width: 1054px;
+  &:nth-child(1) {
+    border-bottom: 1px solid #e1e0e0;
+  }
+  &:nth-child(2) {
+    border-bottom: 1px solid #e1e0e0;
+    padding-top: 21px;
+  }
+  &:nth-child(5) {
+    border-bottom: 1px solid #e1e0e0;
+  }
+  &:nth-child(3) {
+    padding-top: 21px;
+  }
+
+  padding-bottom: 20px;
+}
+
+.answer_list-span {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.answer_list-text {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0px;
+  margin-right: 0px;
+  text-align: left;
+  margin-right: 600px;
+  margin-left: 20px;
+}
+.answer_list-img {
+}
+.answer_item-2 {
+  padding-left: 35px;
+  width: 1054px;
+  padding-top: 20px;
+  background-color: #1e1e1e;
+  padding-bottom: 52px;
+  margin-bottom: 21px;
+}
+.answer_list_top {
+  display: flex;
+}
+.answer_list-span-2 {
+  font-family: Inter;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.answer_list-text-3 {
+  font-family: Inter;
+  font-size: 24px;
+  color: #fff;
+  margin-right: 600px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.answer_list-text-2 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #fff;
+  letter-spacing: 0px;
+  text-align: left;
+
+  width: 901px;
+}
+.answer_list-img-2 {
+}
+.answer_bottom {
+  padding-left: 40px;
+}

@@ -1,0 +1,114 @@
+.tools {
+  padding-top: 187px;
+  padding-bottom: 109px;
+}
+.container {
+}
+.tools_inner {
+  position: relative;
+  &::before {
+    content: "";
+    background-image: url(/images/shape\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -110px;
+    left: -40px;
+    width: 166px;
+    display: inline-block;
+    height: 152px;
+  }
+  display: flex;
+  gap: 40px;
+}
+.tools_left {
+}
+.tools_title {
+  font-family: Playfair Display;
+  font-size: 45px;
+  font-weight: 700;
+
+  line-height: 67px;
+  letter-spacing: 0.0175em;
+  text-align: left;
+  width: 445px;
+}
+.tools_text {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 445px;
+  color: #bbbbbb;
+}
+.tools_main {
+  padding-top: 20px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.tools_link {
+  font-family: Inter;
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding: 14px 28px;
+  text-decoration: none;
+  background-color: #f4c44c;
+}
+.tools_link-img {
+  margin-left: 9px;
+}
+.tools_link-2 {
+  color: #000;
+}
+.tools_list {
+  list-style: none;
+  display: flex;
+  width: 686px;
+
+  flex-wrap: wrap;
+}
+.tools_list-link {
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  background-color: #e6ece7;
+}
+.tools_item {
+  &:nth-child(1) {
+    margin-bottom: 60px;
+  }
+  width: 328px;
+}
+.tools_list_img {
+}
+.tools_list-strong {
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.0175em;
+  margin-bottom: 6px;
+  text-align: left;
+}
+.tools_list-text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #454565;
+  width: 263px;
+}

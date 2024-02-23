@@ -1,0 +1,243 @@
+.plan {
+  background-color: #f8fafc;
+  padding-top: 70px;
+  padding-bottom: 68px;
+}
+
+.plan_inner {
+  position: relative;
+  &::before {
+    content: "";
+    background-image: url(/images/Vector\ 67.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 176px;
+    height: 133px;
+    display: inline-block;
+    position: absolute;
+    left: 1100px;
+    top: 310px;
+  }
+}
+.plan_title {
+  font-family: Playfair Display;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 69px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0 auto;
+  color: #055f5b;
+  width: 520px;
+
+  margin-bottom: 59px;
+}
+.plan_box {
+  width: 250px;
+
+  margin: 0 auto;
+}
+.paln_btn {
+  //styleName: Inter/Semi Bold/16;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  padding: 10px 33px;
+  background-color: #055f5b;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  &:hover {
+    background-color: #fff;
+    color: #12141d;
+  }
+}
+.paln_btn-2 {
+  font-family: Inter;
+  font-size: 16px;
+  &:hover {
+    background-color: #055f5b;
+    color: #fff;
+  }
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  padding: 10px 33px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  color: #12141d;
+}
+.plan_list {
+  list-style: none;
+
+  display: flex;
+  gap: 31px;
+}
+.plan_item {
+  border: 1px solid #e2dad6;
+  width: 370px;
+  border-radius: 36px;
+
+  height: 468px;
+  padding: 33px 35px;
+  margin-top: 134px;
+}
+.plan_list-strong {
+  //styleName: Inter/Semi Bold/20;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-left: 110px;
+  color: #18181b;
+}
+.text {
+  font-family: Playfair Display;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.box {
+  display: flex;
+  width: 77px;
+  margin: 0 auto;
+}
+.plan_list_title {
+  font-family: Plus Jakarta Sans;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 73px;
+  letter-spacing: 0em;
+  margin-bottom: 34px;
+  text-align: center;
+}
+.plan_item_list {
+  border-top: 1px solid #055f5b;
+  list-style: none;
+  padding-top: 22px;
+}
+.plan_list-item {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.plan_item-list-img {
+}
+.plan_item-list-text {
+  //styleName: Inter/Semi Bold/16;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.plan_list-btn {
+  border-radius: 36px;
+  border: 1px solid #d5cece;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-top: 20px;
+  padding: 20px 90px;
+  &:hover {
+    background-color: #000;
+    color: #fff;
+  }
+}
+.plan_item-2 {
+  width: 370px;
+  border-radius: 36px;
+  padding: 33px 35px;
+  margin-top: 80px;
+  background-color: #649969;
+}
+.plan_list-strong-2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-left: 90px;
+}
+.box {
+  margin-top: 23px;
+}
+.text {
+}
+.plan_list_title {
+}
+.plan_item_list-2 {
+  border-top: 1px solid #ffffff;
+  list-style: none;
+  padding-top: 22px;
+}
+.plan_list-item {
+}
+.plan_item-list-img {
+}
+.plan_item-list-text {
+}
+.plan_list-btn {
+}
+.plan_list_title-2 {
+  font-family: Plus Jakarta Sans;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 73px;
+  letter-spacing: 0em;
+  margin-bottom: 38px;
+  text-align: center;
+  color: #fff;
+}
+.text-2 {
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.plan_item-list-text-2 {
+  //styleName: Inter/Semi Bold/16;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #fff;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.plan_list-btn-2 {
+  border-radius: 36px;
+  border: none;
+  background-color: #ffd952;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-top: 20px;
+  padding: 20px 90px;
+  &:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
